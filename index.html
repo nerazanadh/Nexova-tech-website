@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nexova - Premium Mobile Accessories</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="container">
+                <div class="logo">Nexova</div>
+                <ul class="nav-links">
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h1>Premium Mobile Accessories</h1>
+            <p>Enhance your mobile experience with our high-quality accessories</p>
+            <button class="cta-button" onclick="document.getElementById('products').scrollIntoView({behavior: 'smooth'})">Shop Now</button>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="products">
+        <div class="container">
+            <h2>Featured Products</h2>
+            <div class="product-grid">
+                <div class="product-card">
+                    <div class="product-image">📱</div>
+                    <h3>Screen Protectors</h3>
+                    <p>Crystal clear protection for your device screen</p>
+                    <div class="price">$9.99</div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">🔌</div>
+                    <h3>Fast Chargers</h3>
+                    <p>Rapid charging technology for all devices</p>
+                    <div class="price">$24.99</div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">🎧</div>
+                    <h3>Premium Earbuds</h3>
+                    <p>Crystal sound quality with noise cancellation</p>
+                    <div class="price">$79.99</div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">📦</div>
+                    <h3>Phone Cases</h3>
+                    <p>Durable and stylish protection</p>
+                    <div class="price">$19.99</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Nexova</h2>
+            <p>Nexova is your trusted provider of premium mobile accessories. We are committed to delivering high-quality products that enhance your mobile experience. With over 10 years of industry experience, we pride ourselves on customer satisfaction and innovation.</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Get in Touch</h2>
+            <form class="contact-form" onsubmit="handleSubmit(event)">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" rows="5" required></textarea>
+                <button type="submit" class="submit-button">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Nexova Mobile Accessories. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
